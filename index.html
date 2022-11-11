@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Website</title>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/732/732228.png" type="image/x-icon">
+</head>
+<body>
+  <select name="Movies" id="Select Menu">
+    <optgroup label="Movies">
+      <option value="Spider-Man: Homecoming">Spider-Man: Homecoming</option>
+      <option value="Guardians of the Galaxy Vol. 2">Guardians of the Galaxy Vol. 2</option>
+      <option value="How to Train Your Dragon">How to Train Your Dragon</option>
+      <option value="Iron Man">Iron Man</option>
+      <option value="Thor: Love and Thunder">Thor: Love and Thunder</option>
+      <option value="The Fast and the Furious: Tokyo Drift">The Fast and the Furious: Tokyo Drift</option>
+      <option value="John Wick: Chapter 2">John Wick: Chapter 2</option>
+      <option value="3 Idiots">3 Idiots</option>
+      <option value="Batman Begins">Batman Begins</option>
+      <option value="Kung Fu Panda">Kung Fu Panda</option>
+    </optgroup>
+  </select>
+  <button onclick="getMovies()">Get</button>
+    <div id="datatag"></div>
+</body>
+</html>
